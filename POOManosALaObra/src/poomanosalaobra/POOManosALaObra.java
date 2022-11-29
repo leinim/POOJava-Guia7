@@ -4,7 +4,9 @@
  * and open the template in the editor.
  */
 package poomanosalaobra;
+
 import Entidad.Persona;
+import Servicio.PersonaService;
 
 /**
  *
@@ -17,16 +19,15 @@ public class POOManosALaObra {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
+
         Persona primeraPersona = new Persona();
         Persona segundaPersona = new Persona("Milena");
-        
+
         primeraPersona.setNombre("Guillermina");
         segundaPersona.getNombre();
+
+        primeraPersona.edad = 26;
+        primeraPersona.peso = 40;
     }
 
-   
-
-   
-    
 }
